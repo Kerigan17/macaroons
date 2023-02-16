@@ -1,0 +1,265 @@
+@media screen and (max-width: 1045px){
+    .selection {
+        padding-bottom: 0;
+        .selection__title {
+            margin-bottom: 127px;
+        }
+        .selection__macaroons {
+            grid-template:  1fr 1fr / 263px 263px;
+            justify-content: center;
+            .macaroon {
+                margin-bottom: 120px;
+                margin-top: 16px;
+            }
+        }
+    }
+    .zakaz {
+        .container {
+            justify-content: space-between;
+            .zakaz__image {
+                margin-right: 0;
+            }
+        }
+    }
+}
+@media screen and (max-width: 923px){
+    .connection {
+        display: none;
+    }
+    .header {
+        .container {
+            justify-content: flex-start;
+            .menu {
+                margin-left: 103px;
+            }
+        }
+    }
+    .zakaz {
+        position: relative;
+        .container {
+            .zakaz__image {
+                order: 1;
+                position: absolute;
+                right: 20px;
+                bottom: 0;
+                width: 352px;
+                display: flex;
+                align-items: flex-start;
+                img {
+                    width: 100%;
+                }
+            }
+            .zakaz__description {
+                .straw-two {
+                    top: 69px;
+                    right: 108px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 905px) {
+    .main {
+        padding-bottom: 420px;
+        .container {
+            position: relative;
+            align-items: flex-end;
+        }
+    }
+    .description {
+        .container {
+            text-align: center;
+            grid-template-areas:
+            "title title"
+            "text text"
+            "image image"
+            "cards cards"
+        ;
+            .description__title {
+                margin: 0 auto;
+            }
+            .description__text {
+                max-width: 672px;
+                margin: 0 auto;
+            }
+            .description__image{
+                img {
+                    width: 302px;
+                    height: 183px;
+                }
+            }
+            .description__cards {
+                margin: 0 auto;
+                grid-template-columns: 220px 220px;
+                column-gap: 54px;
+                row-gap: 80px;
+                align-items: flex-start;
+                .card {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .card__image {
+                        margin: 0 auto 13px auto;
+                    }
+                }
+            }
+        }
+    }
+    .straw-one {
+        right: -30px;
+        top: 0;
+    }
+    .present {
+        width: 60px;
+        height: 60px;
+        right: 15px;
+        bottom: 15px;
+        img {
+            width: 60%;
+            height: 60%;
+        }
+        .present__info {
+            left: -185px;
+        }
+    }
+}
+@media screen and (max-width: 905px) and (min-width: 668px) {
+    .main__image {
+        position: absolute;
+        bottom: -358px;
+        right: 55px;
+    }
+}
+@media screen and (max-width: 690px) and (min-width: 563px){
+    .straw-one {
+        display: none;
+    }
+}
+@media screen and (max-width: 668px) {
+    .main {
+        padding: 44px;
+        .container {
+            flex-direction: column;
+            gap: 38px;
+            align-items: center;
+            .main__info {
+                .main__title {
+                    font-size: 32px;
+                    line-height: 1.25;
+                    text-align: center;
+                    margin-bottom: 40px;
+                }
+                .main__text {
+                    font-size: 16px;
+                    text-align: center;
+                    margin: 0 auto 40px auto;
+                }
+                .main__action {
+                    text-align: center;
+                }
+            }
+            .main__image {
+                &::after {
+                    width: 150px;
+                    height: 150px;
+                }
+                &::before {
+                    width: 150px;
+                    height: 150px;
+                }
+                img {
+                    width: 250px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 565px){
+    .selection {
+        .container {
+            padding-bottom: 100px;
+            .selection__macaroons {
+                grid-template: 263px / 229px;
+                gap: 142px;
+                .macaroon {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .description {
+        .container {
+            .description__cards {
+                grid-template-columns: 150px 150px;
+                column-gap: 15px;
+                row-gap: 36px;
+            }
+        }
+    }
+    .zakaz__image {
+        display: none;
+    }
+    .straw-two {
+        display: none;
+    }
+    .footer {
+        .container {
+            flex-direction: column;
+            text-align: center;
+            gap: 40px;
+            .roots {
+                margin-top: 0;
+                position: static;
+                order: 3;
+            }
+            .footer__inst {
+                position: relative;
+                order: 2;
+            }
+            .footer__phone {
+                position: relative;
+                order: 1;
+            }
+        }
+    }
+}
+@media screen and (max-width: 490px){
+    .header {
+        .container {
+            justify-content: space-between;
+            .menu {
+                display: none;
+            }
+            .menu__icon {
+                display: block;
+            }
+        }
+    }
+    .zakaz {
+        padding: 98px 0 77px 0;
+        .container {
+            .zakaz__description {
+                .zakaz__form {
+                    .straw-one {
+                        width: 72px;
+                        top: -50px;
+                        right: 40px;
+                    }
+                    .zakaz__pole {
+                        width: 100%;
+                    }
+                    .action {
+                        .btn {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .roots {
+        position: static;
+    }
+}
+
