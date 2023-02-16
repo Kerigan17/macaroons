@@ -1,5 +1,8 @@
 'use strict';
 
+//Добавленный код для задания 5
+console.log("Код добавлен!");
+
 $(function (){
     let loader = $('.loader');
     let thx = $('.thanks');
