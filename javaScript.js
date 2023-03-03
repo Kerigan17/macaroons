@@ -1,8 +1,6 @@
 'use strict';
 
-//Добавленный код для задания 5
-console.log("Код добавлен!");
-
+//я удалил код из прошолой кр
 $(function (){
     let loader = $('.loader');
     let thx = $('.thanks');
